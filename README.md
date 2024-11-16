@@ -14,4 +14,4 @@ This is a **responsive personal portfolio website** created entirely using **HTM
 This project demonstrates my ability to build a fully responsive and visually appealing website using only **HTML** and **CSS**, without any external frameworks or libraries.  
 
 ## Live Demo  
-[Link to the portfolio](#)
+[Link to the portfolio](https://divyanshu177.github.io/Coder_Army-24/)
