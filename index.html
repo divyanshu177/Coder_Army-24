@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body  id="home">
+        <header>
+            <nav>
+                <div class="header-content">
+                    <div class="hamburger-menu">
+                        <img src="./Assets/burger-menu-left-svgrepo-com.svg" alt="Menu" width="40" height="40" style="filter: invert(1);">
+                    </div>
+                    <div class="logo">
+                        <img src="./Assets/dj'.jpg" alt="Logo" class="logo-img">
+                    </div>
+                    <div class="dropdown-menu" id="dropdownMenu">
+                        <a href="#home">Home</a>
+                        <a href="#aboutme">About Me</a>
+                        <a href="#timeline">Timeline</a>
+                        <a href="#contactme">Contact Me</a>
+                    </div>
+                </div>
+                <div class="nav-center">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#aboutme">About Me</a></li>
+                        <li><a href="#timeline">Timeline</a></li>
+                        <li><a href="#contactme">Contact Me</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="main-content">
+                <section>
+                    <h1 class="main-title">Home</h1>
+                    <div class="card-container">
+                        <div class="card card-left">
+                            <img src="./Assets/WhatsApp Image 2024-11-15 at 14.33.04_6d96f1e9_crop.jpg" alt="" class="card-img-left">
+                            <img src="./Assets/WhatsApp Image 2024-11-15 at 14.32.56_542d557b.jpg" alt="image" class="card-img-right">
+                        </div>
+                        <div class="card card-right">
+                            <p class="para1">Hey, I'm Divyanshu Joshi.</p>
+                            <p class="para2"> Here, you can check out what I'm working on.</p>
+                            <p class="para2"> I try my best to create things with ❤</p>
+                        </div>
+                    </div>
+                </section>
+                <section id="aboutme">
+                    <h2 class="main-title">About Me</h2>
+                    <div class="Box-container">
+                        <div class="about-box">
+                            <img src="./Assets/WhatsApp Image 2024-11-15 at 14.32.59_ce94bc31.jpg" alt="" class="about-img">
+                        </div>
+                        <div class="about-box">
+                            <h5>Current Interests</h5>
+                            <p class="about-text">I am currently pursuing Bachelors of the Technology from National Institute of Technology, Uttarakhand in Computer Science and Engineering.</p>
+                            <p class="about-text">I have keen interest in Technologies and likes travelling around the globe.</p>
+                        </div>
+                    </div>
+                    <div class="Box-container">
+                        <div class="about-box">
+                            <img src="./Assets/WhatsApp Image 2024-11-15 at 14.33.00_84ede75e.jpg" alt="" class="about-img">
+                        </div>
+                        <div class="about-box">
+                            <h5>Skills</h5>
+                            <p class="about-text">Proficient in C++, Java, Python, HTML, CSS, JavaScript, ReactJS, NodeJS, ExpressJS, Data Structures and Algorithms.</p>
+                            <h5>Soft Skills</h5>
+                            <p class="about-text">I am very hardworking, passionate, and enthusiastic about learning new stuff and exploring the interesting world of Science and Technology around me.</p>
+                        </div>
+                    </div>
+                </section>
+                <section id="timeline">
+                    <h3 class="main-title">Timeline</h3>
+                    <div class="Box-container">
+                        <div class="timeline-box">
+                            <div class="box">
+                                <img src="./Assets/mallikarjn .png" alt="">
+                                <p class="box-text">Completed My class 10th and 12th from Mallikarjun School, Pithoragarh with an aggregate of 93.8% and 94.6% respectively</p>
+                            </div>
+                            <div class="box">
+                                <p class="box-text">Currently pursuing my B.Tech in Computer Science and Engineering from the National Institute of Technology, Uttarakhand.</p>
+                                <img src="./Assets/nit_uttarakhand.jpg" alt="">
+                            </div>
+                            <div class="box">
+                                <img src="./Assets/Accenture.jpg" alt="">
+                                <p class="box-text">Former Software Engineering Intern at Accenture, where I developed scalable web applications and contributed to enhancing system performance.</p>
+                            </div>
+                            <div class="box">
+                                <p class="box-text">Currently an SDE intern at COIGE Ltd., working on enhancing user experience through advanced algorithms and performance optimization.</p>
+                                <img src="./Assets/onge.png.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <footer id="contactme">
+            <div class="foot">
+                <form>
+                    <div class="heading">
+                        <h4>Contact Me</h4>
+                    </div>
+                    <div class="forma">
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Mobile:</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Enter your phone no." pattern="[0-9]{10}" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="enquiry">Enquiry:</label>
+                            <textarea id="enquiry" name="enquiry" rows="4" placeholder="" required></textarea>
+                        </div>
+                        <button class="subm">Submit</button>
+                    </div>
+                </form>
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/divyanshu-joshi-249894286"><img src="./Assets/linkedin.png" alt="LinkedIn"></a>
+                    <a href="https://www.github.com/divyanshu177"><img src="./Assets/git.png" alt="GitHub"></a>
+                    <a href="https://www.instagram.com"><img src="./Assets/instagram.png" alt="Instagram"></a>
+                    <a href="https://www.twitter.com"><img src="./Assets/twitter.png" alt="Twitter"></a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
